@@ -3,9 +3,8 @@
 [![build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 
-A small-ish test server built with [koa](koajs.com). Requires node 0.11 or 
-higher. Best used in conjunction with 
-[supertest](http://github.com/visionmedia/supertest).
+A small-ish test server built with [koa](koajs.com). Best used to test your
+frontend packages. Requires node 0.11 or higher.
 
 ## Installation
 ```bash
