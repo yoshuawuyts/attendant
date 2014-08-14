@@ -1,5 +1,5 @@
 # attendant
-[![NPM version][npm-image]][npm-url] 
+[![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 
@@ -54,11 +54,12 @@ request(server.listen())
 ```
 
 ## License
-[MIT](https://tldrlegal.com/license/mit-license) © [Yoshua Wuyts](yoshuawuyts.com)
+[MIT](https://tldrlegal.com/license/mit-license) ©
+[Yoshua Wuyts](yoshuawuyts.com)
 
-[npm-image]: https://img.shields.io/npm/v/attendant.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/attendant.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/attendant
-[travis-image]: https://img.shields.io/travis/yoshuawuyts/attendant.svg?style=flat
+[travis-image]: https://img.shields.io/travis/yoshuawuyts/attendant.svg?style=flat-square
 [travis-url]: https://travis-ci.org/yoshuawuyts/attendant
-[coveralls-image]: https://img.shields.io/coveralls/yoshuawuyts/attendant.svg?style=flat
+[coveralls-image]: https://img.shields.io/coveralls/yoshuawuyts/attendant.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/yoshuawuyts/attendant?branch=master
