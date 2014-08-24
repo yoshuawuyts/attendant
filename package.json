@@ -1,6 +1,6 @@
 {
   "name": "attendant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small-ish test server built with koa",
   "main": "index.js",
   "scripts": {
