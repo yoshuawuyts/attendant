@@ -2,7 +2,6 @@
  * Module dependencies
  */
 
-var wayfarer = require('wayfarer');
 var assert = require('assert');
 var http = require('http');
 
@@ -15,7 +14,7 @@ var http = require('http');
 
 module.exports = function(body) {
   body = body || null;
-  
+
   if (body) body = JSON.stringify(body);
   var contentType = 'text/plain';
   if ('object' == typeof body, contentType = 'application/json');
