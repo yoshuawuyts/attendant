@@ -3,8 +3,8 @@
 [![build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 
-A small-ish test server built with [koa](koajs.com). Best used to test your
-frontend packages. Requires node 0.11 or higher.
+A super tiny test server. Best used to test your
+frontend packages.
 
 ## Installation
 ```bash

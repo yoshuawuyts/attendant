@@ -4,7 +4,7 @@
 
 var wayfarer = require('wayfarer');
 var assert = require('assert');
-var koa = require('koa');
+var http = require('http');
 
 /**
  * Create a basic server.
@@ -15,11 +15,18 @@ var koa = require('koa');
 
 module.exports = function(body) {
   body = body || null;
+  
+  if (body) body = JSON.stringify(body);
+  var contentType = 'text/plain';
+  if ('object' == typeof body, contentType = 'application/json');
 
-  var app = koa();
-  app.use(function *(next) {
-    this.body = body;
+  var settings = {
+    'Content-Type': contentType
+  }
+
+  return http.createServer(function(req, res) {
+    res.writeHead(200, settings);
+    if (body) res.write(body);
+    res.end();
   });
-
-  return app
 };

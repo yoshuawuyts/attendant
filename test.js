@@ -28,7 +28,7 @@ describe('attendant()', function() {
     request(server.listen())
       .post('/')
       .send({cat: 'dog'})
-      .expect(204, done);
+      .expect(200, done);
   });
 
   it('should handle patch requests', function(done) {
@@ -37,7 +37,7 @@ describe('attendant()', function() {
     request(server.listen())
       .patch('/')
       .send({cat: 'dog'})
-      .expect(204, done);
+      .expect(200, done);
   });
 
   it('should handle put requests', function(done) {
@@ -46,6 +46,6 @@ describe('attendant()', function() {
     request(server.listen())
       .put('/')
       .send({cat: 'dog'})
-      .expect(204, done);
+      .expect(200, done);
   });
 });

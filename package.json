@@ -22,7 +22,5 @@
     "supertest": "^0.13.0"
   },
   "dependencies": {
-    "koa": "^0.8.2",
-    "wayfarer": "^1.1.0"
   }
 }
